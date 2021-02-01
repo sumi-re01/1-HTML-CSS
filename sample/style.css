@@ -1,0 +1,9 @@
+/* id="sam" --> #sam */
+#word-red {
+  color: red;
+}
+
+/* class="sam" --> .sam */
+.word-blue {
+  color: blue;
+}
