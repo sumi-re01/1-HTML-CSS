@@ -2,16 +2,36 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+a {
+  /* aタグの下線を消す */
+  text-decoration: none;
 }
 
 header {
   width: 90%;
   padding: 15px 0;
   margin: 0 auto;
+  text-align: center;
 }
 
 header .heading {
   font-size: 32px;
+}
+
+.nav-list {
+  /* text-align 中央揃えとか左揃えとかする。要素に対してじゃなくて、テキストに対して。*/
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+.nav-list-item {
+  list-style: none; /* list-styleプロパティ。・の形を変えたり無くしたりできる */
+  display: inline-block; /* 要素の表示形式を変更できるblock > inline*/
+  margin: 0 20px;
 }
 
 .main-visual {
@@ -44,4 +64,11 @@ main {
 footer {
   width: 100%;
   height: 120px;
+  text-align: center;
+  line-height: 120px;
+  background-color: #848282;
+}
+
+.footer-text {
+  color: #fff;
 }
