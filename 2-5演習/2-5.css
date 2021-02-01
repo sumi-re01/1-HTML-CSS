@@ -7,21 +7,19 @@
 /* header */
 header {
   text-align: center;
-}
-
-header .heading {
   margin: 20px auto;
 }
 
 /* nav */
 .nav-list {
+  padding: 15px 0;
   text-align: center;
   border-top: solid 1px black;
   border-bottom: solid 1px black;
 }
 
 .nav-list-item {
-  margin: 15px 20px;
+  margin: 0 20px;
   list-style: none;
   display: inline-block;
 }
