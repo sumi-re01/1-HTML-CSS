@@ -176,7 +176,7 @@ main {
   padding: 50px 0;
 }
 
-/* popular, categorises*/
+/* popular, categories*/
 .popular-text,
 .categories-text {
   padding-bottom: 5px;
@@ -248,20 +248,81 @@ footer {
 
 /* メディアクエリ（レスポンシブ対応） */
 
-@media screen and (max-width: 1024px) {
-  .social i {
-    color: green;
+@media screen and (max-width: 426px) {
+  header {
+    width: 100%;
   }
-}
 
-@media screen and (max-width: 768px) {
-  .social i {
-    color: red;
+  .social {
+    display: none;
   }
-}
 
-@media screen and (max-width: 425px) {
-  .social i {
-    color: blue;
+  .nav-list {
+    margin-bottom: 8px auto;
+  }
+  .nav-list-item {
+    margin-bottom: 5px;
+    display: block;
+  }
+  /* nav-list width, nav-list-item:100%で縦に並べることができる */
+
+  .main-visual-content {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    display: block;
+  }
+
+  .blog {
+    width: 100%;
+  }
+
+  .blog-box {
+    padding: 0 5px;
+  }
+  /* padding-left: 2%; padding-right: 2%; */
+
+  .blog-image {
+    width: 50%;
+  }
+
+  .category {
+    display: none;
+  }
+
+  .sidebar {
+    margin-top: 50px;
+    /* example --> .pignation: margin-bottom */
+    width: 100%;
+  }
+
+  .sidebar-contents {
+    padding: 50px 5px;
+  }
+
+  .instagram .sidebar-contents {
+    justify-content: center;
+  }
+
+  .instagram-box {
+    width: 45%;
+    padding-top: 45%;
+  }
+  /*  example --私のやつだと
+  sidebar-contentsのpaddingが邪魔して綺麗なレイアウトにならない。
+   .instagram-box {
+    width: 48%;
+    padding-top: 48%;
+  }
+
+  .instagram-box:nth-child(odd) {
+    margin-right: 4%;
+  } 
+  */
+
+  .instagram-box:nth-child(odd) {
+    margin-right: 10px;
   }
 }
