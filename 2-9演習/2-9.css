@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header */
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #ff9a4b;
+}
+
+/* main */
+
+main {
+  width: 960px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.step-box {
+  width: 300px;
+  padding: 10px;
+  background-color: #eeeeee;
+  position: relative;
+}
+.step-box:nth-child(2) {
+  margin: 0 30px;
+}
+
+.step {
+  padding: 1px;
+  color: #fff;
+  background-color: #ff9a4b;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* 内容 */
+.step-image1 {
+  width: 100%;
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-position: bottom;
+  background-size: contain;
+}
+
+.step-image2 {
+  width: 100%;
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-position: bottom;
+  background-size: contain;
+}
+
+.step-image3 {
+  width: 100%;
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-position: bottom;
+  background-size: contain;
+}
+
+.step-title {
+  margin: 15px 0 5px 0;
+}
+
+/* footer */
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #aaaaaa;
+}
